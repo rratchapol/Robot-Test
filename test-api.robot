@@ -13,7 +13,7 @@ Get Plus JSON
 
     Should Be Equal    ${resp.status_code}    ${200}
 
-    [return]    ${resp.json()}
+    RETURN    ${resp.json()}
 
 *** Test Cases ***
 Test Plus Numbers 4 and 2 (ฺBefore Using Keywords)
